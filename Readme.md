@@ -7,4 +7,4 @@ A first complete dive into the world of game dev using <b>Unity and C#
 accessed 12/09/2022<br>
 <br>
 Progress photos:<br>
-![image](https://user-images.githubusercontent.com/88724148/206744368-024fe927-4279-43c7-acd3-83dd4133b38f.png)
+![image](https://user-images.githubusercontent.com/88724148/206745287-cf29da89-8d86-481c-8fe8-4bb8ccce2489.png)
