@@ -1,5 +1,6 @@
 Author: Nicola Downward<br>
-A first complete dive into the world of game dev using Unity and C# <b>
+A first complete dive into the world of game dev using Unity and C#
+<br>
 <br>
 .gitignore contents from https://github.com/github/gitignore/blob/main/Unity.gitignore<br>
 accessed 12/09/2022<br>
