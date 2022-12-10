@@ -35,13 +35,6 @@ public class Movement : MonoBehaviour
         else if (Input.GetKey(KeyCode.D)){
             ApplyRotation(-rotationThrust);
         }
-<<<<<<< HEAD
-=======
-    }
-
-    void ApplyRotation(float rotationThisFrame){
-        transform.Rotate(Vector3.forward * rotationThisFrame * Time.deltaTime);
->>>>>>> 5f9db362b4db0a752d488830b36bc091d9a1019c
     }
 
     void ApplyRotation(float rotationThisFrame){
