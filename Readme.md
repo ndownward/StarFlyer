@@ -7,7 +7,7 @@ A first complete dive into the world of game dev using <b>Unity and C#
 accessed Dec-09-2022<br>
 <br>
 Audio file from: https://freesound.org/people/MATRIXXX_/sounds/515122/ <br>
-Creator: MATRIXXX<br>
+Creator: MATRIXXX_<br>
 Date accessed: Dec-10-2022<br>
 <br>
 Progress photos:<br>
