@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
+    [SerializeField] float delayInSeconds = 2f;
+
     void OnCollisionEnter(Collision other) {
         switch (other.gameObject.tag) {
             case "Friendly":
@@ -11,15 +13,27 @@ public class CollisionHandler : MonoBehaviour
 
             case "Finish":
                 //Load next level
-                LoadNextLevel();
+                StartReloadSequence();
                 break;
 
             default:
                 //respawn rocket by reloading the level
-                ReloadLevel();
+                StartCrashSequence();
                 break;
             
         }
+    }
+
+    void StartCrashSequence() {
+        //todo: add crash sound affect
+        //todo: add particle effect
+        GetComponent<Movement>().enabled = false;
+        Invoke("ReloadLevel", delayInSeconds);
+    }
+
+    void StartReloadSequence() {
+        GetComponent<Movement>().enabled = false;
+        Invoke("LoadNextLevel", delayInSeconds);
     }
 
     void ReloadLevel() {
