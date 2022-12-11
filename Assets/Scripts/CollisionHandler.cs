@@ -4,10 +4,14 @@ using UnityEngine.SceneManagement;
 public class CollisionHandler : MonoBehaviour
 {
     [SerializeField] float delayInSeconds = 2f;
+    [SerializeField] AudioClip crashSound;
+    [SerializeField] AudioClip successSound;
 
-    //test merge reset
-    //yet another merge test
-    
+    AudioSource audioSource;
+
+    void Start() {
+        audioSource = GetComponent<AudioSource>();
+    }    
 
     void OnCollisionEnter(Collision other) {
         switch (other.gameObject.tag) {
@@ -29,13 +33,15 @@ public class CollisionHandler : MonoBehaviour
     }
 
     void StartCrashSequence() {
-        //todo: add crash sound affect
         //todo: add particle effect
+        audioSource.PlayOneShot(crashSound);
         GetComponent<Movement>().enabled = false;
         Invoke("ReloadLevel", delayInSeconds);
     }
 
     void StartReloadSequence() {
+        //todo: add particle effect
+        audioSource.PlayOneShot(successSound);
         GetComponent<Movement>().enabled = false;
         Invoke("LoadNextLevel", delayInSeconds);
     }
