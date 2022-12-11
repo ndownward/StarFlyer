@@ -5,6 +5,8 @@ public class CollisionHandler : MonoBehaviour
 {
     [SerializeField] float delayInSeconds = 2f;
 
+    //test merge reset
+
     void OnCollisionEnter(Collision other) {
         switch (other.gameObject.tag) {
             case "Friendly":
