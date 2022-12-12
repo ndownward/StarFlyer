@@ -301,26 +301,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2128123987 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3179591874285664554, guid: 44c22ab1d97caa148b339afa4f5b6aa4, type: 3}
-  m_PrefabInstance: {fileID: 3179591873666171838}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2128123995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2128123987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bd845f7fcba0fd42a0d2be68368361e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delayInSeconds: 2
-  crashSound: {fileID: 8300000, guid: 2e4dd38c4edd437479c0cd608eb55380, type: 3}
-  successSound: {fileID: 8300000, guid: 455e7df2428aeed4dadc6f5fc965877f, type: 3}
 --- !u!1001 &1294168659531260397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -507,14 +487,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1045780527, guid: 44c22ab1d97caa148b339afa4f5b6aa4, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1045780527, guid: 44c22ab1d97caa148b339afa4f5b6aa4, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3179591874285664544, guid: 44c22ab1d97caa148b339afa4f5b6aa4, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -559,10 +531,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3179591874285664551, guid: 44c22ab1d97caa148b339afa4f5b6aa4, type: 3}
-      propertyPath: thrustSound
-      value: 
-      objectReference: {fileID: 8300000, guid: f8a14e69da3f20e4a9ee89a21912162b, type: 3}
     - target: {fileID: 3179591874285664554, guid: 44c22ab1d97caa148b339afa4f5b6aa4, type: 3}
       propertyPath: m_Name
       value: Rocket
