@@ -14,14 +14,29 @@ public class CollisionHandler : MonoBehaviour
     //test for patrick
     
     bool isTransitioning = false;
+    bool collisionsDisabled = false;
 
     void Start() {
         audioSource = GetComponent<AudioSource>();
     }    
 
+    void Update() {
+        RespondToDebugKeys();
+    }
+
+    void RespondToDebugKeys() {
+        if (Input.GetKeyDown(KeyCode.L)){
+            LoadNextLevel();
+        }
+        else if (Input.GetKeyDown(KeyCode.C)){
+            //toggle
+            collisionsDisabled = !collisionsDisabled;
+        }
+    }
+
     void OnCollisionEnter(Collision other) {
 
-        if (isTransitioning){
+        if (isTransitioning || collisionsDisabled){
             return;
         }
 
