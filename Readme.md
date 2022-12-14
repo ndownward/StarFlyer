@@ -18,5 +18,10 @@ Success audio file from: https://freesound.org/people/grunz/sounds/109662/ <br>
 Creator: grunz <br>
 Date accessed: Dec-11-2022<br>
 <br>
+Particle effect from https://gitlab.com/GameDevTV/CompleteUnity3D/ProjectBoost/-/tree/master/Assets/Particles <br>
+<br>
+* Provided by Rick Davidson * <br>
+Date accessed: Dec-14-2022 <br>
+<br>
 Progress photos:<br>
 ![image](https://user-images.githubusercontent.com/88724148/206745287-cf29da89-8d86-481c-8fe8-4bb8ccce2489.png)
