@@ -1,8 +1,13 @@
 <b>Author:</b> Nicola Downward<br>
-A first complete dive into the world of game dev using <b>Unity and C#
-</b>
+A first complete dive into the world of game dev using <b>Unity</b> and <b>C#</b>
 <br>
 <br>
+Progress photos:<br>
+![Screenshot (103)](https://user-images.githubusercontent.com/88724148/207665042-6d669a12-3f02-4060-a073-9a9fca1ba109.png) <br>
+![Screenshot (109)](https://user-images.githubusercontent.com/88724148/207665086-89a23a9b-abed-49d8-9ba2-aba6ec906b6a.png) <br>
+![image](https://user-images.githubusercontent.com/88724148/206745287-cf29da89-8d86-481c-8fe8-4bb8ccce2489.png) <br>
+<br>
+<b>Sources Used</b>
 .gitignore contents from https://github.com/github/gitignore/blob/main/Unity.gitignore<br>
 accessed Dec-09-2022<br>
 <br>
@@ -21,8 +26,3 @@ Date accessed: Dec-11-2022<br>
 Particle effect from https://gitlab.com/GameDevTV/CompleteUnity3D/ProjectBoost/-/tree/master/Assets/Particles <br>
 *Provided by Rick Davidson* <br>
 Date accessed: Dec-14-2022 <br>
-<br>
-Progress photos:<br>
-![Screenshot (102)](https://user-images.githubusercontent.com/88724148/207663957-905b80d0-686f-4693-a128-62d2f66faac1.png) <br>
-![Screenshot (100)](https://user-images.githubusercontent.com/88724148/207664341-d42c0573-064e-4047-820a-1c6885b41518.png) <br>
-![image](https://user-images.githubusercontent.com/88724148/206745287-cf29da89-8d86-481c-8fe8-4bb8ccce2489.png) <br>
