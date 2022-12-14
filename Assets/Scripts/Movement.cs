@@ -36,14 +36,7 @@ public class Movement : MonoBehaviour
 
     bool ProcessThrust() {
         if (Input.GetKey(KeyCode.Space)){
-            rbody.AddRelativeForce(Vector3.up * mainThrust * Time.deltaTime);
-            if(!audioSource.isPlaying){
-                audioSource.PlayOneShot(thrustSound);
-            }
-            if (!mainParticles.isPlaying){
-                mainParticles.Play();
-            }
-            return true;
+            return StartThrust();
         }
         else{
             mainParticles.Stop();
@@ -53,7 +46,31 @@ public class Movement : MonoBehaviour
 
     bool ProcessRotation() {
         if (Input.GetKey(KeyCode.A)){
-           ApplyRotation(rotationThrust);
+           return RotateLeft();
+        }
+
+        else if (Input.GetKey(KeyCode.D)){
+            return RotateRight();
+        }
+        else{
+                StopRotating();
+            }
+        return false;
+    }
+
+    bool StartThrust() {
+        rbody.AddRelativeForce(Vector3.up * mainThrust * Time.deltaTime);
+            if(!audioSource.isPlaying){
+                audioSource.PlayOneShot(thrustSound);
+            }
+            if (!mainParticles.isPlaying){
+                mainParticles.Play();
+            }
+            return true;
+    }
+
+    bool RotateLeft() {
+        ApplyRotation(rotationThrust);
 
            if(!audioSource.isPlaying){
                 audioSource.PlayOneShot(thrustSound);
@@ -63,10 +80,10 @@ public class Movement : MonoBehaviour
             rightParticles.Play();
            }
            return true;
-        }
+    }
 
-        else if (Input.GetKey(KeyCode.D)){
-            ApplyRotation(-rotationThrust);
+    bool RotateRight() {
+        ApplyRotation(-rotationThrust);
 
             if(!audioSource.isPlaying){
                 audioSource.PlayOneShot(thrustSound);
@@ -76,12 +93,11 @@ public class Movement : MonoBehaviour
                 leftParticles.Play();
             }
             return true;
-        }
-        else{
-                rightParticles.Stop();
-                leftParticles.Stop();
-            }
-        return false;
+    }
+
+    void StopRotating() {
+        rightParticles.Stop();
+            leftParticles.Stop();
     }
 
     void ApplyRotation(float rotationThisFrame){
@@ -91,6 +107,4 @@ public class Movement : MonoBehaviour
         //unfreeze physics
         rbody.freezeRotation = false;
     }
-
-    //this is a version control test
 }
