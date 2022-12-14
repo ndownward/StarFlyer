@@ -1,8 +1,13 @@
 <b>Author:</b> Nicola Downward<br>
-A first complete dive into the world of game dev using <b>Unity and C#
-</b>
+A first complete dive into the world of game dev using <b>Unity</b> and <b>C#</b>
 <br>
 <br>
+Progress photos:<br>
+![Screenshot (103)](https://user-images.githubusercontent.com/88724148/207665042-6d669a12-3f02-4060-a073-9a9fca1ba109.png) <br>
+![Screenshot (109)](https://user-images.githubusercontent.com/88724148/207665086-89a23a9b-abed-49d8-9ba2-aba6ec906b6a.png) <br>
+![image](https://user-images.githubusercontent.com/88724148/206745287-cf29da89-8d86-481c-8fe8-4bb8ccce2489.png) <br>
+<br>
+<b>Sources Used</b>
 .gitignore contents from https://github.com/github/gitignore/blob/main/Unity.gitignore<br>
 accessed Dec-09-2022<br>
 <br>
@@ -18,5 +23,6 @@ Success audio file from: https://freesound.org/people/grunz/sounds/109662/ <br>
 Creator: grunz <br>
 Date accessed: Dec-11-2022<br>
 <br>
-Progress photos:<br>
-![image](https://user-images.githubusercontent.com/88724148/206745287-cf29da89-8d86-481c-8fe8-4bb8ccce2489.png)
+Particle effect from https://gitlab.com/GameDevTV/CompleteUnity3D/ProjectBoost/-/tree/master/Assets/Particles <br>
+*Provided by Rick Davidson* <br>
+Date accessed: Dec-14-2022 <br>
