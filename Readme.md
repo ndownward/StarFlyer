@@ -23,4 +23,6 @@ Particle effect from https://gitlab.com/GameDevTV/CompleteUnity3D/ProjectBoost/-
 Date accessed: Dec-14-2022 <br>
 <br>
 Progress photos:<br>
-![image](https://user-images.githubusercontent.com/88724148/206745287-cf29da89-8d86-481c-8fe8-4bb8ccce2489.png)
+![Screenshot (102)](https://user-images.githubusercontent.com/88724148/207663957-905b80d0-686f-4693-a128-62d2f66faac1.png) <br>
+![Screenshot (100)](https://user-images.githubusercontent.com/88724148/207664341-d42c0573-064e-4047-820a-1c6885b41518.png) <br>
+![image](https://user-images.githubusercontent.com/88724148/206745287-cf29da89-8d86-481c-8fe8-4bb8ccce2489.png) <br>
