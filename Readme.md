@@ -20,7 +20,7 @@ Date accessed: Dec-11-2022<br>
 <br>
 Particle effect from https://gitlab.com/GameDevTV/CompleteUnity3D/ProjectBoost/-/tree/master/Assets/Particles <br>
 <br>
-* Provided by Rick Davidson * <br>
+*Provided by Rick Davidson* <br>
 Date accessed: Dec-14-2022 <br>
 <br>
 Progress photos:<br>
