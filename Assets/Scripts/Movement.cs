@@ -1,3 +1,5 @@
+//add follow camera to rocket
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
