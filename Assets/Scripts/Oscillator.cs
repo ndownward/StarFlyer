@@ -20,6 +20,11 @@ public class Oscillator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //protect against NaN
+        if (period <= Mathf.Epsilon){
+            return;
+        }
+
         //value continuously grows
         float cycles = Time.time / period;
 
