@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Under.unity
     guid: b52ed2681689e4b42b75f3ef233868f3
+  - enabled: 1
+    path: Assets/Scenes/Z-Oscillator.unity
+    guid: e36f23223360e704eb6730b8c5544403
+  - enabled: 1
+    path: Assets/Scenes/Merry Christmas.unity
+    guid: 993f621c8d13305459eab95c63198fbf
   m_configObjects: {}
