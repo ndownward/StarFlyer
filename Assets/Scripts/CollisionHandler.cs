@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Cinemachine;
 
 public class CollisionHandler : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class CollisionHandler : MonoBehaviour
     [SerializeField] ParticleSystem successParticles;
 
     AudioSource audioSource;
+    GameObject[] virtualCameras;
+    GameObject followCamera;
     //test for patrick
     
     bool isTransitioning = false;
@@ -18,6 +21,10 @@ public class CollisionHandler : MonoBehaviour
 
     void Start() {
         audioSource = GetComponent<AudioSource>();
+        virtualCameras = GameObject.FindGameObjectsWithTag("Follow");
+        if (virtualCameras.Length != 0){
+            followCamera = virtualCameras[0];
+        }
     }    
 
     void Update() {
@@ -60,6 +67,7 @@ public class CollisionHandler : MonoBehaviour
 
     void StartCrashSequence() {
         isTransitioning = true;
+        followCamera.SetActive(false);
         audioSource.Stop();
         audioSource.PlayOneShot(crashSound);
         crashParticles.Play();
