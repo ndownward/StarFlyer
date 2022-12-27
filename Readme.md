@@ -34,4 +34,4 @@ Date accessed: Dec-14-2022 <br>
 <br>
 Course credits: <br>
 Complete C# Unity Game Developer 3D by Ben Tristem, Rick Davidson, Gary Pettie, and the GameDev.tv Team. <br>
-Completed on Dec-24-2022.
+Section 3 completed on Dec-24-2022.
