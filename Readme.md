@@ -1,15 +1,18 @@
 <b>Author:</b> Nicola Downward<br>
-A first complete dive into the world of game dev using <b>Unity</b> and <b>C#</b>
+Welcome to my first dive into the world of game development using <b>Unity</b> and <b>C#</b><br>
+<b>Play Starflyer here!:<b> https://sharemygame.com/@ndownward/starflyer
 <br>
 <br>
-Progress photos:<br>
-![Screenshot (103)](https://user-images.githubusercontent.com/88724148/207665042-6d669a12-3f02-4060-a073-9a9fca1ba109.png) <br>
-![Screenshot (109)](https://user-images.githubusercontent.com/88724148/207665086-89a23a9b-abed-49d8-9ba2-aba6ec906b6a.png) <br>
-![image](https://user-images.githubusercontent.com/88724148/206745287-cf29da89-8d86-481c-8fe8-4bb8ccce2489.png) <br>
+Photo Gallery:<br>
+![image](https://user-images.githubusercontent.com/88724148/209716573-a8dc9f84-8cc7-4b8c-914c-0afe64d0ca34.png) <br>
+![image](https://user-images.githubusercontent.com/88724148/209716762-bb4e040d-3ce0-42ae-8f0f-12a3785aaac2.png) <br>
+![image](https://user-images.githubusercontent.com/88724148/209716690-ec0bebc9-6f98-4a50-aa28-acb43fa9f2c8.png) <br>
+![image](https://user-images.githubusercontent.com/88724148/209717364-e3c54389-88dc-4ee3-84e3-f9d6206c9a06.png) <br>
+
 <br>
-<b>Sources Used</b>
+<b>Sources Used</b> <br>
 .gitignore contents from https://github.com/github/gitignore/blob/main/Unity.gitignore<br>
-accessed Dec-09-2022<br>
+Date accessed Dec-09-2022<br>
 <br>
 Rocket boost audio file from: https://freesound.org/people/MATRIXXX_/sounds/515122/ <br>
 Creator: MATRIXXX_<br>
@@ -26,3 +29,7 @@ Date accessed: Dec-11-2022<br>
 Particle effect from https://gitlab.com/GameDevTV/CompleteUnity3D/ProjectBoost/-/tree/master/Assets/Particles <br>
 *Provided by Rick Davidson* <br>
 Date accessed: Dec-14-2022 <br>
+<br>
+Course credits: <br>
+Complete C# Unity Game Developer 3D by Ben Tristem, Rick Davidson, Gary Pettie, and the GameDev.tv Team. <br>
+Completed on Dec-24-2022.
