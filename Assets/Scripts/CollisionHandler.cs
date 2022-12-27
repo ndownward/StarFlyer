@@ -28,9 +28,10 @@ public class CollisionHandler : MonoBehaviour
     }    
 
     void Update() {
-        RespondToDebugKeys();
+        // RespondToDebugKeys();
     }
 
+    /*
     void RespondToDebugKeys() {
         if (Input.GetKeyDown(KeyCode.L)){
             LoadNextLevel();
@@ -40,6 +41,7 @@ public class CollisionHandler : MonoBehaviour
             collisionsDisabled = !collisionsDisabled;
         }
     }
+    */
 
     void OnCollisionEnter(Collision other) {
 
