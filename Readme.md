@@ -1,7 +1,7 @@
 <b>Author:</b> Nicola Downward<br>
 <br>
 Welcome to my first dive into the world of game development using <b>Unity</b> and <b>C#</b><br>
-<b>Play Starflyer here!:<b> https://sharemygame.com/@ndownward/starflyer
+<b>Play Starflyer here!:</b> https://sharemygame.com/@ndownward/starflyer
 <br>
 <br>
 Photo Gallery:<br>
@@ -12,7 +12,7 @@ Photo Gallery:<br>
 
 <br>
 <b>Sources Used </b>
-  <br>
+<br>
 .gitignore contents from https://github.com/github/gitignore/blob/main/Unity.gitignore<br>
 Date accessed Dec-09-2022<br>
 <br>
