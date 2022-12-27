@@ -1,4 +1,5 @@
 <b>Author:</b> Nicola Downward<br>
+<br>
 Welcome to my first dive into the world of game development using <b>Unity</b> and <b>C#</b><br>
 <b>Play Starflyer here!:<b> https://sharemygame.com/@ndownward/starflyer
 <br>
