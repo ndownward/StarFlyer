@@ -5,7 +5,7 @@ Welcome to my first dive into the world of game development using <b>Unity</b> a
 <br>
 <br>
 Photo Gallery:<br>
-<img src="https://your-image-url.type](https://user-images.githubusercontent.com/88724148/209716573-a8dc9f84-8cc7-4b8c-914c-0afe64d0ca34.png" width="100">
+<img src="https://user-images.githubusercontent.com/88724148/209716573-a8dc9f84-8cc7-4b8c-914c-0afe64d0ca34.png" width="100">
 ![image](https://user-images.githubusercontent.com/88724148/209716762-bb4e040d-3ce0-42ae-8f0f-12a3785aaac2.png) <br>
 ![image](https://user-images.githubusercontent.com/88724148/209716690-ec0bebc9-6f98-4a50-aa28-acb43fa9f2c8.png) <br>
 ![image](https://user-images.githubusercontent.com/88724148/209717364-e3c54389-88dc-4ee3-84e3-f9d6206c9a06.png) <br>
